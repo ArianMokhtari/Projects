@@ -1,0 +1,42 @@
+{
+  "version": "0.1.1",
+  "main_notebook_computational_ast_unchanged": true,
+  "source_notebooks": [
+    {
+      "file": "source_archive/ROSE_RAG_Issue4_Scalability_Benchmark_JupyterHub_fixed.ipynb",
+      "code_ast_equal": true,
+      "edited_cells": 10
+    },
+    {
+      "file": "source_archive/ROSE_RAG_Experiment1_vector_Jupyter(2).ipynb",
+      "code_ast_equal": true,
+      "edited_cells": 7
+    },
+    {
+      "file": "source_archive/ROSE_RAG_Experiment3B_CoupledRegime_HCR_Confirmatory_fixed(2).ipynb",
+      "code_ast_equal": true,
+      "edited_cells": 4
+    },
+    {
+      "file": "source_archive/ROSE_RAG_Experiment3_Misspecification_v2_Jupyter(2).ipynb",
+      "code_ast_equal": true,
+      "edited_cells": 10
+    },
+    {
+      "file": "source_archive/ROSE_RAG_Experiment2_FiniteSample_v4_Jupyter(2).ipynb",
+      "code_ast_equal": true,
+      "edited_cells": 10
+    },
+    {
+      "file": "source_archive/ROSE_RAG_Experiment1B_ANACONDA_SAFE_v2_Jupyter(2).ipynb",
+      "code_ast_equal": true,
+      "edited_cells": 11
+    },
+    {
+      "file": "source_archive/ROSE_RAG_Issue8_Joint_Dependence_JupyterHub_v1.ipynb",
+      "code_ast_equal": true,
+      "edited_cells": 3
+    }
+  ],
+  "numerical_inputs_unchanged": true
+}

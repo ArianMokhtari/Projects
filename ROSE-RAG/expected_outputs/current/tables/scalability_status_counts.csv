@@ -1,0 +1,9 @@
+method,status,n_rows
+HCR,completed,11
+HCR,state_budget_exceeded,1
+NominalDP,completed,12
+Rectangular,completed,10
+Rectangular,timeout,2
+StaticDO,completed,10
+StaticDO,state_budget_exceeded,1
+StaticDO,timeout,1

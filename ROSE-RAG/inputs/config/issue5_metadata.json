@@ -1,0 +1,49 @@
+{
+  "issue": "reviewer_issue_5",
+  "stage": 3,
+  "run_profile": "final",
+  "seed": 20260717,
+  "model": "deepseek/deepseek-v4-pro",
+  "backend_mode": "openai_compatible",
+  "cache_policy": "cache_then_network",
+  "cache_sources": [
+    "/Users/arian/ROSE-RAG/rose_rag_rgb_final_outputs/llm_cache.sqlite"
+  ],
+  "temperature": 0.0,
+  "lambda_grid": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "gamma_grid": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "n_bootstrap": 10000,
+  "deployable_methods": [
+    "InternalOnly",
+    "FixedTopK",
+    "RetrieveAll",
+    "ConfidenceThreshold",
+    "NominalSequential",
+    "StaticROSE",
+    "HCRROSE",
+    "RectROSE"
+  ],
+  "test_tasks": 495,
+  "base_4b_notebook": "/Users/arian/ROSE-RAG/ROSE_RAG_Experiment4B_Balanced_Calibration_JupyterHub_Only.ipynb",
+  "base_4a_output_dir": "/Users/arian/ROSE-RAG/rose_rag_rgb_final_outputs",
+  "base_4b_output_dir": "/Users/arian/ROSE-RAG/rose_rag_rgb_final_outputs/experiment4b_final_balanced_calibration",
+  "issue5_output_dir": "/Users/arian/ROSE-RAG/rose_rag_issue5_cost_abstention_outputs/final_consistent_v3",
+  "cost_provenance": {
+    "base_source_cost": 0.008,
+    "token_cost_per_1000_tokens": 0.012,
+    "interpretation": "experimental sensitivity scale applied jointly to both retrieval-cost coefficients; not a fitted operational estimate"
+  },
+  "created_at_utc": "2026-10-06T07:24:39.911331+00:00"
+}

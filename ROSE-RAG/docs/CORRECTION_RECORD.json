@@ -1,0 +1,258 @@
+{
+  "version": "0.1.3",
+  "baseline": "0.1.1",
+  "source_changes": [
+    {
+      "path": "source_archive/ROSE_RAG_Experiment1B_ANACONDA_SAFE_v2_Jupyter(2).ipynb",
+      "changes": [
+        {
+          "cell": 5,
+          "function": "_robust_stop_from_likelihood"
+        },
+        {
+          "cell": 5,
+          "function": "rectangular_dp"
+        },
+        {
+          "cell": 5,
+          "function": "hcr_dp"
+        },
+        {
+          "cell": 5,
+          "function": "nominal_dp"
+        },
+        {
+          "cell": 5,
+          "function": "nominal_dp_from_state"
+        }
+      ],
+      "old_sha256": "454a36c964f98df6f24fc9a7bedf8f598c7934925350c84887b68b23494ebf90",
+      "new_sha256": "a9d42df61534512e1e4c61b9bbd1d9d9945d1a9c6b2272c1d0ec53251f2071ce"
+    },
+    {
+      "path": "source_archive/ROSE_RAG_Experiment1_vector_Jupyter(2).ipynb",
+      "changes": [
+        {
+          "cell": 5,
+          "function": "_robust_stop_from_likelihood"
+        },
+        {
+          "cell": 5,
+          "function": "rectangular_dp"
+        },
+        {
+          "cell": 5,
+          "function": "hcr_dp"
+        },
+        {
+          "cell": 5,
+          "function": "nominal_dp"
+        },
+        {
+          "cell": 5,
+          "function": "nominal_dp_from_state"
+        }
+      ],
+      "old_sha256": "76ed79ee1c3f0b57b988833cd28f40f691e78175e1b871a182861b2452a92b66",
+      "new_sha256": "1b4041126d9d3cd56f81efbce8ed942d2866fa841fbdaea7acf6a4faf60c095a"
+    },
+    {
+      "path": "source_archive/ROSE_RAG_Experiment2_FiniteSample_v4_Jupyter(2).ipynb",
+      "changes": [
+        {
+          "cell": 6,
+          "function": "_robust_stop_from_likelihood"
+        },
+        {
+          "cell": 6,
+          "function": "rectangular_dp"
+        },
+        {
+          "cell": 6,
+          "function": "hcr_dp"
+        },
+        {
+          "cell": 8,
+          "function": "wilson_interval"
+        },
+        {
+          "cell": 6,
+          "function": "nominal_dp"
+        },
+        {
+          "cell": 6,
+          "function": "nominal_dp_from_state"
+        },
+        {
+          "cell": 8,
+          "function": "evaluate_nominal_policy_under_true_model"
+        }
+      ],
+      "old_sha256": "718d79eff5b2360d61513792797a033d2c7fb645f645974888a2f93289f31592",
+      "new_sha256": "7eefa8e150a7f3dac5baf6c2f31909fc1a23d8b191a8883dbc492fcf98ad95fd"
+    },
+    {
+      "path": "source_archive/ROSE_RAG_Experiment3B_CoupledRegime_HCR_Confirmatory_fixed(2).ipynb",
+      "changes": [
+        {
+          "cell": 3,
+          "function": "rectangular_child_belief_set"
+        },
+        {
+          "cell": 3,
+          "function": "solve_restricted_policy_mixture"
+        },
+        {
+          "cell": 3,
+          "function": "_robust_stop_from_likelihood"
+        },
+        {
+          "cell": 3,
+          "function": "rectangular_dp"
+        },
+        {
+          "cell": 3,
+          "function": "hcr_dp"
+        },
+        {
+          "cell": 3,
+          "function": "nominal_dp"
+        },
+        {
+          "cell": 3,
+          "function": "nominal_dp_from_state"
+        },
+        {
+          "cell": 4,
+          "function": "nominal_tree"
+        }
+      ],
+      "old_sha256": "e8c5f3255def7fdf5647b00bde26abb2fff66394df0e763745ec9da5fcdbf552",
+      "new_sha256": "c8979118b2fcd908ba5cba545cd1f66d155cfd21fbfcf4cf6bc5b7165a4f84e2"
+    },
+    {
+      "path": "source_archive/ROSE_RAG_Experiment3_Misspecification_v2_Jupyter(2).ipynb",
+      "changes": [
+        {
+          "cell": 5,
+          "function": "_robust_stop_from_likelihood"
+        },
+        {
+          "cell": 5,
+          "function": "rectangular_dp"
+        },
+        {
+          "cell": 5,
+          "function": "hcr_dp"
+        },
+        {
+          "cell": 7,
+          "function": "rectangular_child_belief_set"
+        },
+        {
+          "cell": 7,
+          "function": "solve_restricted_policy_mixture"
+        },
+        {
+          "cell": 5,
+          "function": "nominal_dp"
+        },
+        {
+          "cell": 5,
+          "function": "nominal_dp_from_state"
+        }
+      ],
+      "old_sha256": "14f44965f76b551cb284497ba9776a506fd55139ba9fffd5f5b0d804bcff9342",
+      "new_sha256": "ba236284af83ef51b1bbd6bf53b5268520cb1d80f13746f30c73eb8b12efdefa"
+    },
+    {
+      "path": "source_archive/ROSE_RAG_Issue4_Scalability_Benchmark_JupyterHub_fixed.ipynb",
+      "changes": [
+        {
+          "cell": 6,
+          "function": "rectangular_dp_general"
+        },
+        {
+          "cell": 6,
+          "function": "rectangular_child_belief_set"
+        },
+        {
+          "cell": 6,
+          "function": "hcr_dp_general"
+        },
+        {
+          "cell": 6,
+          "function": "nominal_tree_from_memo"
+        },
+        {
+          "cell": 7,
+          "function": "solve_restricted_policy_mixture_general"
+        },
+        {
+          "cell": 6,
+          "function": "nominal_dp_general"
+        }
+      ],
+      "old_sha256": "f5c6cb0a0f703381b0f9c5e564e2aad175765dd4351e54daea5140dadeb627cb",
+      "new_sha256": "c0e61f66554392305d8cf433963acec33ea525dd792836d5f6cf5f57ecdb773a"
+    }
+  ],
+  "numerical_inputs_unchanged": true,
+  "historical_reference_outputs_unchanged": true,
+  "source_ASTs_intentionally_changed": true,
+  "publication_status": "acceptance_passed_before_repository_publication",
+  "nominal_memo_correction": {
+    "issue": "Absolute 14-place rounding of unnormalized likelihoods merged distinct positive states.",
+    "repair": "Use exact represented floating-point likelihood components for nominal memo keys and all consumers.",
+    "counterexample": {
+      "omega": [
+        1e-16,
+        2e-16
+      ],
+      "channels": [
+        [
+          [
+            0.1,
+            0.9
+          ],
+          [
+            0.3,
+            0.7
+          ]
+        ]
+      ],
+      "query_cost": 0.01,
+      "abstention_cost": 0.3,
+      "old_value": 0.1528571428571429,
+      "independent_correct_value": 0.2733333333333333
+    },
+    "tradeoff": "Exact keys may use more memo states; historical scalability times are not rebenchmarked."
+  },
+  "source_changes_apply_to_version": "0.1.2",
+  "source_ASTs_changed_from_0_1_2": false,
+  "notebook_schema_correction": {
+    "path": "source_archive/ROSE_RAG_Issue4_Scalability_Benchmark_JupyterHub_fixed.ipynb",
+    "previous_version": "0.1.2",
+    "cell_indices_zero_based": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "old_sha256": "c0e61f66554392305d8cf433963acec33ea525dd792836d5f6cf5f57ecdb773a",
+    "new_sha256": "6cfefb78432402426a5ad717e03721bffdc09dbdae3c54a3df234cd3434e2528",
+    "change": "Added deterministic unique cell IDs required by declared nbformat 4.5.",
+    "code_cell_source_changed": false,
+    "strict_schema_valid_after_repair": true
+  }
+}

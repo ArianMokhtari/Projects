@@ -1,0 +1,9 @@
+# Local execution artifacts
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+rose_rag_issue12_reproduction_*/
+SEND_ME*.zip

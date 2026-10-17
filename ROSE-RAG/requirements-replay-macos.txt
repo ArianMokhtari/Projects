@@ -1,0 +1,5 @@
+# Numerical package versions from the successful author Jupyter run.
+# Use a Python 3.11 kernel. Jupyter/IPython frontend is supplied separately.
+numpy==1.26.4
+pandas==2.1.4
+matplotlib==3.8.0

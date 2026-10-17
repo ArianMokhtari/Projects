@@ -1,0 +1,11 @@
+{
+  "python": "3.11.7 (main, Dec 15 2023, 12:09:04) [Clang 14.0.6 ]",
+  "platform": "macOS-26.6.2-x86_64-i386-64bit",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.1.4",
+    "matplotlib": "3.8.0"
+  },
+  "execution_scope": "saved_output_reaggregation_no_solvers_no_API",
+  "generated_at_utc": "2026-10-16T09:26:42.889514+00:00"
+}

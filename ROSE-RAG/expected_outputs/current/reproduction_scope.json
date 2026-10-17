@@ -1,0 +1,12 @@
+{
+  "version": "issue12_selected_reproduction_v1",
+  "no_api_calls": true,
+  "no_solver_execution": true,
+  "coverage_recomputed_from_saved_intervals": true,
+  "true_policy_risks_recomputed": false,
+  "RGB_full_annotation_checkpoint_included": false,
+  "Issue5_final_v3_solver_source_verified": false,
+  "source_archive_executed": false,
+  "issues10_11_reproduced": false,
+  "source_notebooks_require_separate_user_validation": true
+}

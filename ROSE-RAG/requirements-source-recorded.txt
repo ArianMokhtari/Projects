@@ -1,0 +1,9 @@
+# Major solver-source dependencies; full source archive has not been rerun here.
+# These numerical versions were recorded in the manuscript/source environment.
+# psutil version was not recorded there and is intentionally not invented.
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.11.4
+matplotlib==3.8.0
+psutil
+# Jupyter/IPython environment must be supplied separately.

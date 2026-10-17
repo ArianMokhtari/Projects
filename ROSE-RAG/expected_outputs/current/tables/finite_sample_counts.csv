@@ -1,0 +1,5 @@
+stratum,denominator,covered,violations,nonviolations,violation_rate
+all,6000,5835,27,5973,0.0045
+covered,5835,5835,0,5835,0.0
+uncovered_nonempty,117,0,20,97,0.17094017094017094
+uncovered_fallback,48,0,7,41,0.14583333333333334

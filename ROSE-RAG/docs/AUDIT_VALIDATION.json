@@ -1,0 +1,185 @@
+{
+  "package_version": "0.1.3",
+  "baseline_version": "0.1.1",
+  "created_utc": "2026-10-16T18:13:03.370750+00:00",
+  "github_upload_performed": false,
+  "verdict": "Suitable for publication as the documented selected reproducibility package; not a full RGB/LLM replication.",
+  "replay": {
+    "code_cells": 8,
+    "checks_passed": 98,
+    "exact_reference_CSV_matches": 20,
+    "transport": "Sequential IPython execution in a fresh Python interpreter",
+    "separate_jupyter_kernel_transport_verified": false
+  },
+  "regenerated_records": {
+    "finite_sample": 6000,
+    "misspecification": 112000,
+    "joint_calibration": 24000,
+    "known_law": 3600,
+    "coupled_state_audit": 400
+  },
+  "finite_counts": {
+    "covered": 5835,
+    "unconditional_violations": 27,
+    "covered_violations": 0
+  },
+  "independent_data_checks": 156,
+  "independent_small_solver_checks": 193,
+  "analytic_joint_controls": 825,
+  "source_regression_checks": 63,
+  "joint_unique_calibrated_set_solves": 1758,
+  "source_correction_effect": {
+    "strict_1e10_query_count_differences": 32,
+    "affected_instance": 342,
+    "max_risk_delta": 3.049313579417401e-11,
+    "max_query_count_delta": 2.454034016791444e-10,
+    "static_solver_tolerance": 1e-09,
+    "explained_by_weight_repair": true,
+    "comparison_absolute_tolerance": 1e-10
+  },
+  "numerical_inputs_byte_identical": true,
+  "original_author_outputs_byte_identical": true,
+  "corrected_source_notebooks": 6,
+  "source_ASTs_intentionally_changed": true,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "not_validated": [
+    "Fresh RGB/LLM responses or correctness of original annotations",
+    "Exact final-v3 cost-sweep optimizer source identity",
+    "Every manuscript bootstrap interval and figure",
+    "Original hardware timing or peak memory reproduction",
+    "Run All of all seven original experiment notebooks",
+    "A formal independent proof of the manuscript theorem"
+  ],
+  "corrected_top_level_functions": 38,
+  "acceptance_review": {
+    "completed_utc": "2026-10-16T18:36:32.449973+00:00",
+    "passed": true,
+    "additional_defect": {
+      "issue": "Absolute 14-place rounding of unnormalized likelihoods merged distinct positive states.",
+      "repair": "Use exact represented floating-point likelihood components for nominal memo keys and all consumers.",
+      "counterexample": {
+        "omega": [
+          1e-16,
+          2e-16
+        ],
+        "channels": [
+          [
+            [
+              0.1,
+              0.9
+            ],
+            [
+              0.3,
+              0.7
+            ]
+          ]
+        ],
+        "query_cost": 0.01,
+        "abstention_cost": 0.3,
+        "old_value": 0.1528571428571429,
+        "independent_correct_value": 0.2733333333333333
+      },
+      "tradeoff": "Exact keys may use more memo states; historical scalability times are not rebenchmarked."
+    },
+    "source_regression_checks": 63,
+    "additional_acceptance_checks": 616,
+    "small_solver_checks_repeated": 193,
+    "replay_checks": 98,
+    "exact_CSV_matches": 20,
+    "affected_sweeps": {
+      "finite": {
+        "rows": 6000,
+        "max_non_timing_delta_from_previous_corrected_candidate": 1.1102230246251565e-16
+      },
+      "misspecification": {
+        "rows": 112000,
+        "max_non_timing_delta_from_previous_corrected_candidate": 0.0
+      }
+    },
+    "previous_strict_LP_differences_preserved": 32,
+    "numerical_inputs_and_historical_author_outputs_byte_identical": true,
+    "scientific_scope_unchanged": true
+  },
+  "publication_observation": "The upload flag records the audit snapshot before repository publication.",
+  "algorithm_audit_version": "0.1.2",
+  "repeat_review_0_1_3": {
+    "completed_utc": "2026-10-17T04:11:36.672855+00:00",
+    "reviewed_version": "0.1.2",
+    "corrected_release_version": "0.1.3",
+    "verdict": "Suitable for publication as the documented selected reproducibility package after notebook-schema repair. Not a full RGB/LLM or manuscript replication.",
+    "github_upload_performed": false,
+    "original_candidate_zip_sha256": "4ad8261c6ca387ec9aa6412b190d7aa4e122cd2e61e91b20c8318e80286cd6a6",
+    "recomputed_records": {
+      "finite_sample": 6000,
+      "misspecification": 112000,
+      "joint_calibration": 24000,
+      "known_law": 3600,
+      "coupled_state": 400
+    },
+    "total_recomputed_records": 146000,
+    "timing_columns_excluded": true,
+    "strict_LP_deviations_retained": 32,
+    "max_LP_risk_delta": 3.0493108038598393e-11,
+    "max_LP_query_count_delta": 2.454034016791444e-10,
+    "independent_data_checks": 156,
+    "independent_small_solver_checks": 193,
+    "analytical_joint_controls": 825,
+    "repeated_source_regressions": 63,
+    "repeated_acceptance_checks": 616,
+    "additional_repeat_review_checks": 774,
+    "additional_comparator_fault_injections": 13,
+    "coupled_summary_rows_checked": 10,
+    "finite_sample_counts": {
+      "covered": 5835,
+      "unconditional_violations": 27,
+      "covered_violations": 0
+    },
+    "notebook_schema_repair": {
+      "missing_cell_IDs": 14,
+      "strict_valid_notebooks": 8,
+      "algorithm_source_text_changed": false
+    },
+    "final_replay": {
+      "checks_passed": 98,
+      "exact_CSV_matches": 20,
+      "code_cells": 8,
+      "separate_Jupyter_kernel_verified": false,
+      "mode": "Sequential IPython in a fresh Python process"
+    },
+    "real_kernel_attempt": {
+      "succeeded": false,
+      "error": "Kernel died before replying to kernel_info",
+      "environment_stderr": "Operation not permitted in network interface discovery and ZeroMQ resolver; no notebook cells executed."
+    },
+    "checks_are_software_controls_not_independent_statistical_replications": true,
+    "all_17_original_numerical_inputs_and_23_macos_outputs_byte_identical": true,
+    "source_code_identity": "All seven source notebooks retain exactly the same code-cell source text as 0.1.2; only scalability cell IDs changed.",
+    "remaining_limits": [
+      "Original RGB response texts and full annotation/calibration bank are not in the selected release and were not rescored.",
+      "Exact final-v3 cost-sweep optimizer source identity remains unverified.",
+      "Every manuscript figure/table/bootstrap interval and original hardware timing/memory were not regenerated.",
+      "Run All of all original experiment notebooks and an independent formal theorem proof are not claimed.",
+      "Separate Jupyter kernel could not start in this environment; sequential IPython replay passed."
+    ],
+    "publication_file_count": 93,
+    "environment": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+      "packages": {
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scipy": "1.17.0",
+        "matplotlib": "3.10.8",
+        "ipython": "9.17.1",
+        "nbformat": "5.11.1"
+      }
+    }
+  }
+}

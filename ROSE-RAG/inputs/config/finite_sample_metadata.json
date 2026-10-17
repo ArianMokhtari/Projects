@@ -1,0 +1,19 @@
+{
+  "seed": 20260713,
+  "run_mode": "final",
+  "n_replications": 1000,
+  "calibration_sizes": [
+    25,
+    50,
+    100,
+    200,
+    500,
+    1000
+  ],
+  "n_sources": 3,
+  "scenario_library_size": 41,
+  "confidence_level": 0.95,
+  "risk_tolerance": 1e-09,
+  "completed_rows": 6000,
+  "completed_replications": 1000
+}

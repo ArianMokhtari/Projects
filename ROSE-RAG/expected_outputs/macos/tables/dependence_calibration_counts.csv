@@ -1,0 +1,5 @@
+representation,covered,denominator,violations
+independence,False,9095,8777
+independence,True,2905,0
+joint_sequential,False,309,43
+joint_sequential,True,11691,0

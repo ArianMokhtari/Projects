@@ -1,0 +1,11 @@
+metric,count,denominator,rate,value
+policy_states,400,400,1.0,400.0
+different_root_action,3,400,0.0075,
+different_common_node_action,343,400,0.8575,
+different_complete_evidence_path,343,400,0.8575,
+strictly_positive_rect_minus_hcr_value,392,400,0.98,
+numerically_zero_rect_minus_hcr_value,8,400,0.02,
+negative_rect_minus_hcr_value,0,400,0.0,
+mean_rect_minus_hcr_value,400,400,,0.019789590312346686
+minimum_rect_minus_hcr_value,400,400,,-1.3336554083309693e-13
+maximum_rect_minus_hcr_value,400,400,,0.03979091870490359
